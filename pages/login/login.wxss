@@ -1,0 +1,56 @@
+/* pages/login/login.wxss */
+/* pages/enroll/enroll.wxss */
+
+page{
+  background-color: white;
+}
+
+.first {
+  margin-top: 10%;
+  height: 70rpx;
+  background-color: #eaeaea;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 10rpx;
+  display: flex;/*1*/
+  flex-direction: row;/*1*/
+}
+
+.second {
+  margin-top: 5%;
+  height: 70rpx;
+  background-color: #eaeaea;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 10rpx;
+  display: flex;/*1*/
+  flex-direction: row;/*1*/
+}
+
+.input {
+  width: 90%;/*确保用户点击input的大部分时可以显示光标*/
+  margin: auto;/*1*/
+  margin-left: 20rpx;/*注释1配合起来能让input呈现一个漂亮的样式*/
+}
+.click{
+  margin: auto;
+  margin-top: 10%;
+  height: 100rpx;
+  width: 90%;
+  margin-left: 5%;
+  background-color: #003588;
+  color: white;
+
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 33rpx;
+}
+.cha {
+  margin: auto;
+  margin-top: 20rpx;
+  margin-left: 5%;
+}
+.no {
+  font-family: nsimsun;
+  font-size: 30rpx;
+}

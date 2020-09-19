@@ -1,0 +1,45 @@
+/* pages/commit/commit.wxss */
+page{
+  background-color: #eaeaea;
+}
+.currentWordNumber{
+
+    margin-bottom: 20rpx;
+    margin-left: 85%;
+
+    color: #888;
+
+}
+.first {
+  margin-top: 10%;
+  height: 500rpx;
+  background-color:white;
+  border-radius: 20rpx;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 10rpx;
+  display: flex;/*1*/
+  flex-direction: column;/*1*/
+}
+.input {
+  width: 90%;
+  height: 90%;
+  /* background-color: black; */
+  margin-left: 20rpx;
+  font-size: 40rpx;
+  margin-top: 20rpx;
+}
+
+.click{
+  margin: auto;
+  margin-top: 10%;
+  height: 100rpx;
+  width: 90%;
+  margin-left: 5%;
+  background-color: #003588;
+  color: white;
+  border-radius: 20rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 33rpx;
+}

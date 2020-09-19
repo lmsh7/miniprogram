@@ -1,0 +1,29 @@
+<!--pages/square/square.wxml-->
+<include src="/pages/bottom_menu/bottom_menu" />
+
+
+<scroll-view class="scroll" scroll-y="true" scroll-top="{{scrollTop}}"   bindscroll="scrollFn" bindscrolltolower="loadMore">
+	<!-- <view class="fuc"> -->
+	<view wx:for="{{list}}" wx:for-index="idx">
+
+		<view class="history">
+			<view class="block">
+				<view class="hid">#{{item.hid}}</view>
+				<view class="head">
+					<view class="nickname">{{item.nickname}}</view>
+					<view class="time">{{item.timestamp}}</view>
+				</view>
+				<view class="body">
+					<view class="text">{{item.content}}
+					</view>
+				</view>
+				<view class="tail">
+				</view>
+			</view>
+		</view>
+	</view>
+			<text>\n</text> 
+
+	<!-- </view> -->
+
+</scroll-view>

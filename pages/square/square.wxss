@@ -1,0 +1,78 @@
+/* pages/square/square.wxss */
+@import "/pages/bottom_menu/bottom_menu";
+.scroll{
+  border-color: black;
+  height: 91%;
+  width: 750rpx;
+  position: absolute;
+}
+.block {
+  margin-top: 20rpx;
+  /* background-color: tomato; */
+  width: 95%;
+  margin-left: 2.5%;
+  
+}
+.head{
+  /* background-color: teal; */
+  display: flex;
+  flex-direction: row;
+  border-top: gray solid 5rpx; 
+}
+.hid{
+  color: #003588;
+  margin-left: 20rpx;
+  font-size: large;
+  font-weight: bold;
+}
+.nickname {
+  margin-bottom: 10rpx;
+  margin-top:10rpx;
+  color: black;
+  /* font-weight: bold; */
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.time{
+  margin-top:10rpx;
+
+  right: 40rpx; 
+  position:absolute;
+}
+.body {
+  /* background-color: thistle; */
+  height: auto;
+  /* border-bottom: solid 10rpx violet; */
+
+}
+.text {
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  word-break: break-all;
+}
+.tail {
+  /* background-color: yellowgreen; */
+  height: 30rpx;
+}
+.history{
+  background-color: white;
+  margin-top:30rpx;
+  border-radius: 30rpx;
+  width: 95%;
+  height: auto;
+  margin-left: 2.5%;
+  display: flex;
+  flex-direction: column;
+  box-shadow:7rpx 7rpx 20rpx 7rpx gray;
+}
+.fuc{
+  /* 为了实现scroll-view和onPushDownfresh共存 */
+  
+  overflow:auto;
+  margin:auto;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}

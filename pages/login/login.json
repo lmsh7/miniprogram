@@ -1,0 +1,9 @@
+{
+
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "LOGIN",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

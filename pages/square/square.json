@@ -1,0 +1,11 @@
+{
+
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#EAEAEA",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+
+  "navigationBarTitleText": "SQUARE",
+  "backgroundColor": "#EAEAEA",
+  "backgroundTextStyle": "light"
+}

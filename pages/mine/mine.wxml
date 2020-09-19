@@ -1,0 +1,37 @@
+<!--pages/square/square.wxml-->
+<include src = "/pages/bottom_menu/bottom_menu" />
+
+<scroll-view class="scroll" scroll-y="true" scroll-top="{{scrollTop}}" bindscrolltolower="loadMore">
+<view class="mine">
+  <view class="id">
+    <view class="text_1">{{id}}</view>
+  </view>
+  <view class="regist_time">
+    <view class="text_2">已经度过{{regist_time}}天</view>
+  </view>
+  <view class="comment">
+    <image class="comment_image" src = "cloud://lmsh7-cloud-stq2r.6c6d-lmsh7-cloud-stq2r-1303155673/letter.svg">
+    </image>
+    <view class="text_3">回复
+    </view>
+  </view>
+</view>
+<view wx:for = "{{list}}" >
+<view class="history">
+  <view class="block">
+  	<view class="hid">#{{item.hid}}</view>
+    <view class="head">
+      <view class="nickname">{{item.nickname}}</view>
+      <view class="time">{{item.timestamp}}</view>
+    </view>
+    <view class="body">
+      <view class="text">{{item.content}}
+      </view>
+    </view>
+    <view class="tail">
+    </view>
+  </view>
+  </view>
+</view>
+			<text>\n</text> 
+</scroll-view>

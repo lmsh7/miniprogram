@@ -1,0 +1,65 @@
+/* pages/mine/mine.wxss */
+@import "/pages/square/square";
+
+.mine{
+  background-color: white;
+  margin-top:30rpx;
+  border-radius: 30rpx;
+  width: 95%;
+  /* height: 50%; */
+  margin-left: 2.5%;
+  display: flex;
+  flex-direction: column;
+  box-shadow:15rpx 15rpx 20rpx 10rpx gray;
+}
+.id {
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+.text_1{
+  font-weight: bold;
+  font-size: 50rpx;
+  color: #003588;
+}
+.regist_time{
+  margin-right: 30rpx;
+  margin-top: 10rpx;
+  margin-left: auto;
+}
+.text_2{
+  font-family: nsimsun;
+  font-size: 35rpx;
+}
+.comment{
+  margin-bottom: 30rpx;
+  margin-left: 30rpx;
+  position: flex;
+  display: flex;
+  flex-direction: row;
+}
+.text_3{
+  font-family: simhei;
+  font-size: 35rpx;
+  margin-left: 7rpx;
+}
+.comment_image{
+  width: 45rpx;
+  height: 45rpx;
+}
+
+/* .scroll_2 {
+  
+    height: 91%;
+    width: 100%;
+    position: flex;
+    overflow: scroll;
+    position: absolute;
+  
+} */
+.block_2 {
+  margin-top: 20rpx;
+  background-color: tomato;
+  width: 95%;
+  margin-left: 2.5%;
+  
+}
