@@ -9,12 +9,12 @@
   <view class="regist_time">
     <view class="text_2">已经度过{{regist_time}}天</view>
   </view>
-  <view class="comment">
+  <!-- <view class="comment">
     <image class="comment_image" src = "cloud://lmsh7-cloud-stq2r.6c6d-lmsh7-cloud-stq2r-1303155673/letter.svg">
     </image>
     <view class="text_3">回复
     </view>
-  </view>
+  </view> -->
 </view>
 <view wx:for = "{{list}}" >
 <view class="history">

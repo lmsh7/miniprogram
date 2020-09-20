@@ -4,7 +4,7 @@
 		<view class="txt"  style="color:{{firs}}">广场</view>
 	</view>
 	<view class="bottomTab" >
-		<image src="cloud://lmsh7-cloud-stq2r.6c6d-lmsh7-cloud-stq2r-1303155673/add.png" class="bottomImage" bindtap="to_commit"></image>
+		<image src="cloud://lmsh7-cloud-stq2r.6c6d-lmsh7-cloud-stq2r-1303155673/add2.png" class="bottomImage" bindtap="to_commit"></image>
 	</view>
 	<view class="bottomTab" bindtap="to_mine">
 		<view class="txt" style="color:{{seco}}" >我的 </view>

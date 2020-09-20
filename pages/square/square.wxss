@@ -48,6 +48,7 @@
 .text {
   margin-top: 10rpx;
   margin-left: 20rpx;
+  font-size: 35rpx;
   word-break: break-all;
 }
 .tail {

@@ -1,7 +1,6 @@
 <!--pages/commit/commit.wxml-->
 <view class="first">
 	<textarea class="input" placeholder="请输入。" placeholder-style="font-size: 40rpx" maxlength="255" bindinput="input">
-  
   </textarea>
   <text class="currentWordNumber">{{currentWordNumber|0}}/{{max}} </text>
   <view></view>

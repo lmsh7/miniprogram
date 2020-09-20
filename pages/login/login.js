@@ -17,9 +17,26 @@ Page({
   },
 
   login:function(e) {
+    var that = this;
+
+    const db = wx.cloud.database().collection("user")
+
+    // db.where({
+    //   phone: that.data.phone,
+    // }).get({
+    //   success(res) {
+    //     console.log(res)
+    //     wx.showModal({
+    //       title: 'ヽ（≧□≦）ノ',
+    //       content: 'caonima',
+    //       showCancel: false,
+    //       success (res) {}
+    //     })
+    //   }
+    // })
+
     var md5 = require('../../utils/md5.js');
 
-    var that = this;
     if(that.data.phone == "") {
       wx.showModal({
         title: 'ヽ（≧□≦）ノ',
@@ -42,6 +59,7 @@ Page({
       }).get({
         success(res) {
           phoneGet = res
+          // console.log(res)
           if(phoneGet.data.length == 0) {
             wx.showModal({
               title: 'ヽ（≧□≦）ノ',

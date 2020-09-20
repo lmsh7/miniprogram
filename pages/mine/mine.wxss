@@ -24,6 +24,8 @@
 .regist_time{
   margin-right: 30rpx;
   margin-top: 10rpx;
+  margin-bottom: 30rpx;
+  /* when dont have comment section */
   margin-left: auto;
 }
 .text_2{
